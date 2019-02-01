@@ -18,6 +18,8 @@
 		A37A24EF2203F3E300001BE6 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24EE2203F3E300001BE6 /* Converter.swift */; };
 		A37A24F12203F44000001BE6 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F02203F44000001BE6 /* ConverterTests.swift */; };
 		A37A24F32203F9EB00001BE6 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F22203F9EA00001BE6 /* LifeCycleTests.swift */; };
+		A37A24F52203FCFB00001BE6 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F42203FCFB00001BE6 /* Division.swift */; };
+		A37A24F92203FDA300001BE6 /* DivisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F82203FDA300001BE6 /* DivisionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		A37A24EE2203F3E300001BE6 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		A37A24F02203F44000001BE6 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		A37A24F22203F9EA00001BE6 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
+		A37A24F42203FCFB00001BE6 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		A37A24F82203FDA300001BE6 /* DivisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 				A37A24BE2203E4C400001BE6 /* AppDelegate.swift */,
 				A37A24C02203E4C400001BE6 /* ViewController.swift */,
 				A37A24C22203E4C400001BE6 /* Main.storyboard */,
+				A37A24F42203FCFB00001BE6 /* Division.swift */,
 				A37A24C52203E4C600001BE6 /* Assets.xcassets */,
 				A37A24C72203E4C600001BE6 /* LaunchScreen.storyboard */,
 				A37A24CA2203E4C600001BE6 /* Info.plist */,
@@ -120,6 +125,7 @@
 		A37A24D22203E4C600001BE6 /* FirstTests */ = {
 			isa = PBXGroup;
 			children = (
+				A37A24F82203FDA300001BE6 /* DivisionTests.swift */,
 				A37A24F22203F9EA00001BE6 /* LifeCycleTests.swift */,
 				A37A24F02203F44000001BE6 /* ConverterTests.swift */,
 				A37A24D32203E4C600001BE6 /* FirstTests.swift */,
@@ -270,6 +276,7 @@
 			files = (
 				A37A24C12203E4C400001BE6 /* ViewController.swift in Sources */,
 				A37A24BF2203E4C400001BE6 /* AppDelegate.swift in Sources */,
+				A37A24F52203FCFB00001BE6 /* Division.swift in Sources */,
 				A37A24EF2203F3E300001BE6 /* Converter.swift in Sources */,
 				A37A24ED2203E4DC00001BE6 /* Hater.swift in Sources */,
 			);
@@ -281,6 +288,7 @@
 			files = (
 				A37A24F12203F44000001BE6 /* ConverterTests.swift in Sources */,
 				A37A24D42203E4C600001BE6 /* FirstTests.swift in Sources */,
+				A37A24F92203FDA300001BE6 /* DivisionTests.swift in Sources */,
 				A37A24F32203F9EB00001BE6 /* LifeCycleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
