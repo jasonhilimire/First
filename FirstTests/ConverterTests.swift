@@ -13,7 +13,7 @@ var sut: Converter!
 class ConverterTests: XCTestCase {
 
     override func setUp() {
-      let sut = Converter()
+        sut = Converter()
     }
 
     override func tearDown() {
@@ -28,7 +28,7 @@ class ConverterTests: XCTestCase {
         let output1 = sut.convertToCelsius(fahrenheit: input1)
         
         //then
-        XCTAssertEqual(output1, 0)
+        XCTAssertEqual(output1, 0, accuracy: 0.000001)
     }
     
     func test212Fahrenheitis100Celsius() {
@@ -40,7 +40,7 @@ class ConverterTests: XCTestCase {
         let output2 = sut.convertToCelsius(fahrenheit: input2)
         
         //then
-        XCTAssertEqual(output2, 100)
+        XCTAssertEqual(output2, 100, accuracy: 0.000001)
     }
     
     
