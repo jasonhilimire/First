@@ -14,6 +14,9 @@
 		A37A24C92203E4C600001BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37A24C72203E4C600001BE6 /* LaunchScreen.storyboard */; };
 		A37A24D42203E4C600001BE6 /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24D32203E4C600001BE6 /* FirstTests.swift */; };
 		A37A24DF2203E4C600001BE6 /* FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24DE2203E4C600001BE6 /* FirstUITests.swift */; };
+		A37A24ED2203E4DC00001BE6 /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24EC2203E4DC00001BE6 /* Hater.swift */; };
+		A37A24EF2203F3E300001BE6 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24EE2203F3E300001BE6 /* Converter.swift */; };
+		A37A24F12203F44000001BE6 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F02203F44000001BE6 /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A37A24DA2203E4C600001BE6 /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37A24DE2203E4C600001BE6 /* FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITests.swift; sourceTree = "<group>"; };
 		A37A24E02203E4C600001BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37A24EC2203E4DC00001BE6 /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
+		A37A24EE2203F3E300001BE6 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		A37A24F02203F44000001BE6 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 		A37A24BD2203E4C400001BE6 /* First */ = {
 			isa = PBXGroup;
 			children = (
+				A37A24EE2203F3E300001BE6 /* Converter.swift */,
+				A37A24EC2203E4DC00001BE6 /* Hater.swift */,
 				A37A24BE2203E4C400001BE6 /* AppDelegate.swift */,
 				A37A24C02203E4C400001BE6 /* ViewController.swift */,
 				A37A24C22203E4C400001BE6 /* Main.storyboard */,
@@ -110,6 +118,7 @@
 		A37A24D22203E4C600001BE6 /* FirstTests */ = {
 			isa = PBXGroup;
 			children = (
+				A37A24F02203F44000001BE6 /* ConverterTests.swift */,
 				A37A24D32203E4C600001BE6 /* FirstTests.swift */,
 				A37A24D52203E4C600001BE6 /* Info.plist */,
 			);
@@ -258,6 +267,8 @@
 			files = (
 				A37A24C12203E4C400001BE6 /* ViewController.swift in Sources */,
 				A37A24BF2203E4C400001BE6 /* AppDelegate.swift in Sources */,
+				A37A24EF2203F3E300001BE6 /* Converter.swift in Sources */,
+				A37A24ED2203E4DC00001BE6 /* Hater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37A24F12203F44000001BE6 /* ConverterTests.swift in Sources */,
 				A37A24D42203E4C600001BE6 /* FirstTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
