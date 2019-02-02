@@ -20,7 +20,7 @@ class AsynchronousTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testPrimesUpTo100ShouldBe0(){
+    func testPrimesUpTo100ShouldBeEqual25(){
         //given
         let maximumCount = 100
         let expectation = XCTestExpectation(description: "Calculate primes up to \(maximumCount)")
@@ -33,11 +33,17 @@ class AsynchronousTests: XCTestCase {
         wait(for: [expectation], timeout: 10)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testPrimueUpTo100ShouldBe25() {
+        //given
+        let maximumCount = 100
+        let expectation = XCTestExpectation(description: "Calculate primes up to \(maximumCount)")
+        expectation.expectedFulfillmentCount = 25
+        // when
+        PrimeCalculator.calculateStreaming(upTo: maximumCount) { number in expectation.fulfill()
         }
+        wait(for: [expectation], timeout: 3)
     }
+    
+    
 
 }
