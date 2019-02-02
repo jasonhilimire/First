@@ -6,6 +6,7 @@
 //  Copyright © 2019 Peanut Apps. All rights reserved.
 //
 
+/*
 import XCTest
 
 class FirstUITests: XCTestCase {
@@ -32,3 +33,4 @@ class FirstUITests: XCTestCase {
     }
 
 }
+ */

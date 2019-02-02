@@ -20,6 +20,7 @@
 		A37A24F32203F9EB00001BE6 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F22203F9EA00001BE6 /* LifeCycleTests.swift */; };
 		A37A24F52203FCFB00001BE6 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F42203FCFB00001BE6 /* Division.swift */; };
 		A37A24F92203FDA300001BE6 /* DivisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24F82203FDA300001BE6 /* DivisionTests.swift */; };
+		A3C7D3DB22054FEE004C7FD7 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C7D3DA22054FEE004C7FD7 /* ThrowingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A37A24F22203F9EA00001BE6 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
 		A37A24F42203FCFB00001BE6 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		A37A24F82203FDA300001BE6 /* DivisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionTests.swift; sourceTree = "<group>"; };
+		A3C7D3DA22054FEE004C7FD7 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		A37A24D22203E4C600001BE6 /* FirstTests */ = {
 			isa = PBXGroup;
 			children = (
+				A3C7D3DA22054FEE004C7FD7 /* ThrowingTests.swift */,
 				A37A24F82203FDA300001BE6 /* DivisionTests.swift */,
 				A37A24F22203F9EA00001BE6 /* LifeCycleTests.swift */,
 				A37A24F02203F44000001BE6 /* ConverterTests.swift */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A37A24F12203F44000001BE6 /* ConverterTests.swift in Sources */,
+				A3C7D3DB22054FEE004C7FD7 /* ThrowingTests.swift in Sources */,
 				A37A24D42203E4C600001BE6 /* FirstTests.swift in Sources */,
 				A37A24F92203FDA300001BE6 /* DivisionTests.swift in Sources */,
 				A37A24F32203F9EB00001BE6 /* LifeCycleTests.swift in Sources */,
