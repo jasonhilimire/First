@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36C075D22094B9E008B5F4C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C075C22094B9E008B5F4C /* Notifications.swift */; };
+		A36C076022094C66008B5F4C /* NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C075F22094C66008B5F4C /* NotificationTests.swift */; };
 		A37A24BF2203E4C400001BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24BE2203E4C400001BE6 /* AppDelegate.swift */; };
 		A37A24C12203E4C400001BE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24C02203E4C400001BE6 /* ViewController.swift */; };
 		A37A24C42203E4C400001BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37A24C22203E4C400001BE6 /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A36C075C22094B9E008B5F4C /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		A36C075F22094C66008B5F4C /* NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTests.swift; sourceTree = "<group>"; };
 		A37A24BB2203E4C400001BE6 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37A24BE2203E4C400001BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A37A24C02203E4C400001BE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				A37A24C72203E4C600001BE6 /* LaunchScreen.storyboard */,
 				A37A24CA2203E4C600001BE6 /* Info.plist */,
 				A3C7D3EA22064EAA004C7FD7 /* PrimeCalculator.swift */,
+				A36C075C22094B9E008B5F4C /* Notifications.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 		A37A24D22203E4C600001BE6 /* FirstTests */ = {
 			isa = PBXGroup;
 			children = (
+				A36C075F22094C66008B5F4C /* NotificationTests.swift */,
 				A3C7D3DA22054FEE004C7FD7 /* ThrowingTests.swift */,
 				A37A24F82203FDA300001BE6 /* DivisionTests.swift */,
 				A37A24F22203F9EA00001BE6 /* LifeCycleTests.swift */,
@@ -341,6 +347,7 @@
 			files = (
 				A37A24C12203E4C400001BE6 /* ViewController.swift in Sources */,
 				A37A24BF2203E4C400001BE6 /* AppDelegate.swift in Sources */,
+				A36C075D22094B9E008B5F4C /* Notifications.swift in Sources */,
 				A37A24F52203FCFB00001BE6 /* Division.swift in Sources */,
 				A3C7D3EB22064EAA004C7FD7 /* PrimeCalculator.swift in Sources */,
 				A37A24EF2203F3E300001BE6 /* Converter.swift in Sources */,
@@ -356,6 +363,7 @@
 				A3C7D3DB22054FEE004C7FD7 /* ThrowingTests.swift in Sources */,
 				A37A24D42203E4C600001BE6 /* FirstTests.swift in Sources */,
 				A37A24F92203FDA300001BE6 /* DivisionTests.swift in Sources */,
+				A36C076022094C66008B5F4C /* NotificationTests.swift in Sources */,
 				A37A24F32203F9EB00001BE6 /* LifeCycleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
