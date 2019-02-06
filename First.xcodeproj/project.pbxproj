@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A33C3112220A85D400175F2F /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33C3111220A85D400175F2F /* House.swift */; };
+		A33C3114220A877A00175F2F /* HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33C3113220A877A00175F2F /* HouseTests.swift */; };
 		A36C075D22094B9E008B5F4C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C075C22094B9E008B5F4C /* Notifications.swift */; };
 		A36C076022094C66008B5F4C /* NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C075F22094C66008B5F4C /* NotificationTests.swift */; };
 		A37A24BF2203E4C400001BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A24BE2203E4C400001BE6 /* AppDelegate.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A33C3111220A85D400175F2F /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		A33C3113220A877A00175F2F /* HouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTests.swift; sourceTree = "<group>"; };
 		A36C075C22094B9E008B5F4C /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		A36C075F22094C66008B5F4C /* NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTests.swift; sourceTree = "<group>"; };
 		A37A24BB2203E4C400001BE6 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +152,7 @@
 				A37A24CA2203E4C600001BE6 /* Info.plist */,
 				A3C7D3EA22064EAA004C7FD7 /* PrimeCalculator.swift */,
 				A36C075C22094B9E008B5F4C /* Notifications.swift */,
+				A33C3111220A85D400175F2F /* House.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				A37A24F02203F44000001BE6 /* ConverterTests.swift */,
 				A37A24D32203E4C600001BE6 /* FirstTests.swift */,
 				A37A24D52203E4C600001BE6 /* Info.plist */,
+				A33C3113220A877A00175F2F /* HouseTests.swift */,
 			);
 			path = FirstTests;
 			sourceTree = "<group>";
@@ -347,6 +353,7 @@
 			files = (
 				A37A24C12203E4C400001BE6 /* ViewController.swift in Sources */,
 				A37A24BF2203E4C400001BE6 /* AppDelegate.swift in Sources */,
+				A33C3112220A85D400175F2F /* House.swift in Sources */,
 				A36C075D22094B9E008B5F4C /* Notifications.swift in Sources */,
 				A37A24F52203FCFB00001BE6 /* Division.swift in Sources */,
 				A3C7D3EB22064EAA004C7FD7 /* PrimeCalculator.swift in Sources */,
@@ -361,6 +368,7 @@
 			files = (
 				A37A24F12203F44000001BE6 /* ConverterTests.swift in Sources */,
 				A3C7D3DB22054FEE004C7FD7 /* ThrowingTests.swift in Sources */,
+				A33C3114220A877A00175F2F /* HouseTests.swift in Sources */,
 				A37A24D42203E4C600001BE6 /* FirstTests.swift in Sources */,
 				A37A24F92203FDA300001BE6 /* DivisionTests.swift in Sources */,
 				A36C076022094C66008B5F4C /* NotificationTests.swift in Sources */,

@@ -47,7 +47,7 @@ class DivisionTests: XCTestCase {
         let result = aut.divisionRemainder(of: dividend, dividedBy: divisor)
         
         // then
-        verifyDivision(result, expectedQuotient: 3, expectedRemainder: 2)
+        verifyDivision(result, expectedQuotient: 3, expectedRemainder: 1)
     }
 
 }
